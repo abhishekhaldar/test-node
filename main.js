@@ -9,7 +9,8 @@ app.use('/hii', (req, res) => {
 });
 
 app.use('/name',(req,res)=>{
-    res.status(200).json({message:"hii abhishek", status:true})
+    res.status(200).json({message:"hii abhishek from server", status:true})
+    
 })
 
 app.listen(port, () => {
