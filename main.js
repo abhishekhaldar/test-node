@@ -1,7 +1,7 @@
 import express from 'express';
 import { test } from './index.js';
 const app = express();
-const port = 5005;
+const port = 8000;
 
 app.get('/', (req, res) => {
     test();
