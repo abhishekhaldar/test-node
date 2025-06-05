@@ -3,12 +3,12 @@ import { test } from './index.js';
 const app = express();
 const port = 8000;
 
-app.get('/api/hii', (req, res) => {
+app.get('/hii', (req, res) => {
     test();
     res.send('Hello, World!');
 });
 
-app.get('/api/name',(req,res)=>{
+app.get('/name',(req,res)=>{
     res.status(200).json({message:"hii abhishek", status:true})
 })
 
