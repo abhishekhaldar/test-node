@@ -5,7 +5,7 @@ const port = 8000;
 
 app.use('/hii', (req, res) => {
     test();
-    res.send('Hello, abhishek !');
+    res.send('Hello, abhishek .message frome server  !');
 });
 
 app.use('/name',(req,res)=>{
